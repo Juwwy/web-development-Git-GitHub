@@ -62,14 +62,24 @@ Ans: .human p
 23. How do you select all links within a div with the class of sidebar?
 Ans: a .sidebar 
 24. What is a pseudo selector?
-
+Ans: pseudo-class is a keyword added to a selector that specifies a special state of the selected element
 25. What do we use the change the spacing between lines?
 Ans: emps&;
+
 26. What do we use to change the spacing between letters?
+Ans: letter-spacing
+
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Ans: toUppercase toLowerCase
+
 28. How do I add a 1px border around my div that is dotted and black?
+
 29. How do I select everything on the page? 
+Ans: crtl+a
+
 30. How do I write a comment in CSS?
+Ans: backslash(//)
+
 31. How do I find out what file I am in, when I am using the command line? 
 Ans: cat
 
@@ -78,12 +88,30 @@ Ans: ls
 
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
 Ans: rm. we need to be careful because we may totally lose or corrupt the file
+
 34. Why should I use version control? 
 Ans: it helps keep a snapshot of my project and enable me work with other developers
 
 35. How often should I commit to github?
 Ans: very often
+
 36. What is the command we would use to push our repo up to github? 
 Ans: git push -u origin (branch name)
 
-37. Walk me through Lambda's git flow. 
+
+Stretch Question
+
+1. What is the difference between an inline element and a block element?
+Ans: inline element stay within other element on a web page while block element stay on a new line
+
+2. What happens when an element is positioned absolutely? 
+Ans: An absolutely positioned element is an element whose computed position value is absolute or fixed
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+Ans: by placing element on block
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+Ans: display block by default- blockquote, pre,   Display-inline by default are; anchor, img, em
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+Ans: box model is essentially a box that wraps around every HTML element. when give fix for the box model it wont allow element to move out of their div bound
